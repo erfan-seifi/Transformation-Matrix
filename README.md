@@ -42,8 +42,8 @@ Intuitively we find that if we have multiple data points, the above equations ca
 
 $$ 
    \begin{bmatrix}
-   X1 & Y1 & 1 & 0 & 0 & 0 & -u1X1 & -u1Y1 & -u1\\
-   0 & 0 & 0 & X1 & Y1 & 1 & -v1X1 & -v1Y1 & -v1\\
+   X1 & Y1 & 1 & 0 & 0 & 0 & -U1X1 & -U1Y1 & -U1\\
+   0 & 0 & 0 & X1 & Y1 & 1 & -V1X1 & -V1Y1 & -V1\\
    ⋮ & ⋮ & ⋮ & ⋮ & ⋮ & ⋮ & ⋮ & ⋮ & ⋮ &\\
    Xn & Yn & 1 & 0 & 0 & 0 & -UnXn & -UnYn & -Un\\
    0 & 0 & 0 & X1 & Y1 & 1 & -VnXn & -VnYn & -Vn\\
