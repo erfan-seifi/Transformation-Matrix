@@ -6,7 +6,7 @@ $$\begin{bmatrix}
 | su |   |m11 m12 m13|
 | sv | = |m21 m22 m23|
 | s  |   |m31 m32 m33| 
-\end{bmatrix}$$
+
 ```
 
 
