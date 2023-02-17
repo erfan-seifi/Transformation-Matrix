@@ -64,6 +64,14 @@ $$
    \end{bmatrix}
 $$
 
+if we form the above equation as Ax=0 it can be concluded that x=0 is a trivial solution and has to be avoided. It is proved that the following approach will give you the optimum solution:
+- Minimize ||Ax|| subject to ||𝐱|| = 1
+- Suppose we take the singular value decomposition of A to get A=UΣVT
+- If the equation Ax=0 can be solved exactly, then at least one of the eigenvalues of A must be zero. So, if one of elements on the diagonal of Σ is zero, then we have a solution.
+- That solution corresponds to the column of V that corresponds to the zero-valued singular value.
+- If none of the singular values are zero, we have no solution to our equation. It can be proved that in this case, the smallest singular value corresponds to the solution to the linear least squares fitting problem.
+
+
 
 
 
