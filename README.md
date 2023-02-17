@@ -71,7 +71,7 @@ if we form the above equation as Ax=0 it can be concluded that x=0 is a trivial 
 - That solution corresponds to the column of V that corresponds to the zero-valued singular value.
 - If none of the singular values are zero, we have no solution to our equation. It can be proved that in this case, the smallest singular value corresponds to the solution to the linear least squares fitting problem.
 
-Having the coordinates of your source and destination points the code will compute transformation matrix for you.
+Having the coordinates of your source and destination points the code will compute transformation matrix for you. In the code you should first specify how many points you have and the give the initial coordinates as x, y and projected coordinates as m, n.
 
 
 
