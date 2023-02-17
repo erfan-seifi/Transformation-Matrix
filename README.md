@@ -4,8 +4,8 @@ This repository calculates the transformation matrix for 2D to 2D projection. In
 ```math
   \begin{bmatrix} 
     su \\ 
-    sv \\ = 
+    sv \\ 
     s
-  \end{bmatrix}
+  \end{bmatrix} = 
 ```
 
