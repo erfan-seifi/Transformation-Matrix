@@ -1,5 +1,5 @@
 # Transformation-Matrix
-This repository calculates the transformation matrix for 2D to 2D projection. In the following we want to explore the projection for a single point and generalize it to multiple points.
+This repository calculates the transformation matrix for 2D to 2D projection. As we know in general the transformaion matrix included translation, rotation, and scaling. In the following we want to explore the projection for a single point and generalize it to multiple points in homogeneous format.
 
 
 $$ \begin{bmatrix} 
