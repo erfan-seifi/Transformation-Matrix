@@ -9,19 +9,5 @@ $$\begin{bmatrix}
 \end{bmatrix}$$
 ```
 
-```math
-  \begin{bmatrix} 
-    su \\ 
-    sv \\ 
-    s
-  \end{bmatrix} = 
-  
-  \begin{bmatrix} 
-   
-    m11m12  m13\\ 
-    m21 m22 m23\\ 
-    m31 m32 m33
 
-  \end{bmatrix}
-```
 
